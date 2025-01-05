@@ -6,6 +6,7 @@ st.set_page_config(page_title='My Portfolio', page_icon=':tada:',layout='wide')
 
 lottieurl='https://lottie.host/2a414a6c-e01c-413d-8f1b-34537354caaa/uWyZIT9P8E.json'
 pro1_img=Image.open('images/port1.jpg')
+pro2_img=Image.open('images/Pro2.jpg')
 
 def loadlottie(url):
     r=requests.get(url)
@@ -24,8 +25,8 @@ lottie=loadlottie(lottieurl)
 
 with st.container():
     st.subheader('Hi, I am P S Veera Venkata Naga Saiteja :wave:')
-    st.title("A Data Scientist From India")
-    st.write('I am very passionate about ways to use python and it\'s related libraries to mine best insights and forecast from the data')
+    st.title("AI Enthusiast | Problem Solver | Collaborator")
+    st.subheader("Driven by Curiosity, Fueled by Innovation")
 
 # about section
 
@@ -33,14 +34,10 @@ with st.container():
     st.write('---')
     lc,rc=st.columns((1,1.1))
     with lc:
-        st.header('What I do')
-        st.write('##')
+        st.header('What I’m Passionate About')
         st.write(
             '''
-            I am Currently in the final year of my Bachelor's Degree in Computer Science at Koneru lakshmaiah University.
-            - I am Currently doing my reserach in the field of Artificial Intelligence, namely Gesture Intelligence a new intutive way of human computer interaction.
-            - I am Currently doing professional certification from IBM in Data Science.
-'''
+I’m passionate about using technology to create innovative solutions that make a real difference. Whether it's building AI-driven applications, improving user experiences using web tools, or enhancing collaboration through technology. My interests lie in problem-solving, continuous learning, and exploring how tech can positively impact society. I am also deeply committed to fostering teamwork and leadership, which I’ve cultivated through my experience in leading and organizing events during my undergraduate years as Vice President of the Digital Twin Technology Club.'''
         )
 
 
@@ -58,7 +55,7 @@ with st.container():
     with img:
         st.image(pro1_img,width=400)
     with text:
-        st.subheader('Gesture Intelligence : A New Intutive way of Human Computer Interaction')
+        st.subheader('Gesture Intelligence : An intuitive way of human-computer interaction.')
         st.write(
             '''
             - Gestures being the integral part of today's life,these gestures are incorporated into the world of technology using AI.
@@ -67,6 +64,20 @@ with st.container():
 '''
         )
         st.markdown('[Project Git_repo](https://github.com/Saiteja-203/GestureDetection)')
+
+    with img:
+        st.image(pro2_img,width=400)
+    with text:
+        st.subheader('Dictionary Web Application')
+        st.write(
+            '''
+            -  Designed and developed a web-based dictionary application using
+               Python’s Streamlit library, to deliver a seamless user experience.
+            - Implemented a search functionality, leveraging API integration to
+              retrieve accurate word meanings.
+'''
+        )
+        st.markdown('[Project Git_repo](https://github.com/Saiteja-203/Dictionary)')
 
 with st.container():
     st.write('---')
