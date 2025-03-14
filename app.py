@@ -28,7 +28,7 @@ lottie=loadlottie(lottieurl)
 
 with st.container():
     st.subheader('Hi, I am P S Veera Venkata Naga Saiteja :wave:')
-    st.title("AI Enthusiast | Problem Solver | Collaborator")
+    st.title("Entrepreneur-in-the-Making | AI & Business Enthusiast")
     st.subheader("Driven by Curiosity, Fueled by Innovation")
 
 # about section
@@ -39,9 +39,7 @@ with st.container():
     with lc:
         st.header('About Me')
         st.write(
-            '''With a keen interest in AI, business, I aspire to combine my technical expertise with entrepreneurial vision. I am
-always open to learning, collaborating, and exploring new opportunities that align with my goal of building and
-growing a successful startup.'''
+            '''With a keen interest in AI and business, and currently attending the 7-week Y Combinator Startup School program, I aspire to combine my technical expertise with entrepreneurial vision. I am always open to learning, collaborating, and exploring new opportunities that align with my goal of building and growing a successful startup.'''
         )
 
 
