@@ -27,7 +27,7 @@ lottie=loadlottie(lottieurl)
 # header section
 
 with st.container():
-    st.subheader('Hi, I am P S Veera Venkata Naga Saiteja :wave:')
+    st.subheader('Hi, I am Prathipati P S Veera Venkata Naga Saiteja :wave:')
     st.title("Entrepreneur-in-the-Making | AI & Business Enthusiast")
     st.subheader("Driven by Curiosity, Fueled by Innovation")
 
@@ -41,7 +41,6 @@ with st.container():
         st.write(
             '''With a keen interest in AI and business, and currently attending the 7-week Y Combinator Startup School program, I aspire to combine my technical expertise with entrepreneurial vision. I am always open to learning, collaborating, and exploring new opportunities that align with my goal of building and growing a successful startup.'''
         )
-
 
 st.write("[Linkedin Profile >](https://www.linkedin.com/in/pandu-sri/)")
 
@@ -87,8 +86,7 @@ with st.container():
         st.subheader('AI Chatbot')
         st.write(
             '''
-            - Built a chatbot using Hugging Face pre-trained models, integrated it with a Flask web application for real-time
-conversations, designed a simple user interface to improve interaction quality
+            - Built a chatbot using Hugging Face pre-trained models, integrated it with a Flask web application for real-time conversations, designed a simple user interface to improve interaction quality.
 '''
         )
 
