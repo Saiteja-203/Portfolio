@@ -6,7 +6,7 @@ st.set_page_config(page_title='My Portfolio', page_icon=':tada:',layout='wide')
 
 lottieurl='https://lottie.host/2a414a6c-e01c-413d-8f1b-34537354caaa/uWyZIT9P8E.json'
 pro1_img=Image.open('images/port1.jpg')
-pro2_img=Image.open('images/Pro2.jpg')
+pro2_img=Image.open('images/Pro2.png')
 pro3_img=Image.open('images/image.png')
 cer1_img=Image.open('images/imageCer1.png')
 cer2_img=Image.open('images/imageCer2.png')
