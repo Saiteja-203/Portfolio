@@ -104,21 +104,19 @@ with st.container():
         st.subheader('City of Moreton Bay Entrepreneurship and Innovation Job Simulation on Forage - February 2025')
         st.write(
             '''
-            - Completed a job simulation that gave insight into the tasks and challenges that entrepreneurs face..
+            - Completed a job simulation that gave insight into the tasks and challenges that entrepreneurs face.
             - Created a pitch deck to send to Venture Capital firms for pre-seed investment.
-            - Used Wordpress to create a one page website, with the goal of convincing viewers that the product or service
-is worth buying.
+            - Used Wordpress to create a one page website, with the goal of convincing viewers that the product or service is worth buying.
 '''
         )
     
     with img:
-        st.image(cer2_img,width=300)
+        st.image(cer2_img,width=400)
     with text:
         st.subheader('PwC Switzerland Cybersecurity Job Simulation on Forage - February 2025')
         st.write(
             '''
-            - Completed a job simulation involving cybersecurity for PwC Digital Intelligence, gaining experience in
-understanding and explaining the concept of integrated defense.
+            - Completed a job simulation involving cybersecurity for PwC Digital Intelligence, gaining experience in understanding and explaining the concept of integrated defense.
             - Developed expertise in integrated defense strategies and their application in real-world scenarios.
             - Conducted risk assessments and formulated security recommendations for a client.
             - Demonstrated proficiency in cybersecurity terminology, network segmentation, and firewall configuration.
