@@ -112,7 +112,7 @@ is worth buying.
         )
     
     with img:
-        st.image(cer2_img,width=400)
+        st.image(cer2_img,width=300)
     with text:
         st.subheader('PwC Switzerland Cybersecurity Job Simulation on Forage - February 2025')
         st.write(
