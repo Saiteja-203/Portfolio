@@ -111,7 +111,7 @@ with st.container():
         )
     
     with img:
-        st.image(cer2_img,width=200)
+        st.image(cer2_img,width=400)
     with text:
         st.subheader('PwC Switzerland Cybersecurity Job Simulation on Forage - February 2025')
         st.write(
