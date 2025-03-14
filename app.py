@@ -7,6 +7,9 @@ st.set_page_config(page_title='My Portfolio', page_icon=':tada:',layout='wide')
 lottieurl='https://lottie.host/2a414a6c-e01c-413d-8f1b-34537354caaa/uWyZIT9P8E.json'
 pro1_img=Image.open('images/port1.jpg')
 pro2_img=Image.open('images/Pro2.jpg')
+pro3_img=Image.open('images/image.png')
+cer1_img=Image.open('images/imageCer1.png')
+cer2_img=Image.open('images/imageCer2.png')
 
 def loadlottie(url):
     r=requests.get(url)
@@ -34,10 +37,11 @@ with st.container():
     st.write('---')
     lc,rc=st.columns((1,1.1))
     with lc:
-        st.header('What I’m Passionate About')
+        st.header('About Me')
         st.write(
-            '''
-I’m passionate about using technology to create innovative solutions that make a real difference. Whether it's building AI-driven applications, improving user experiences using web tools, or enhancing collaboration through technology. My interests lie in problem-solving, continuous learning, and exploring how tech can positively impact society. I am also deeply committed to fostering teamwork and leadership, which I’ve cultivated through my experience in leading and organizing events during my undergraduate years as Vice President of the Digital Twin Technology Club.'''
+            '''With a keen interest in AI, business, I aspire to combine my technical expertise with entrepreneurial vision. I am
+always open to learning, collaborating, and exploring new opportunities that align with my goal of building and
+growing a successful startup.'''
         )
 
 
@@ -78,6 +82,51 @@ with st.container():
 '''
         )
         st.markdown('[Project Git_repo](https://github.com/Saiteja-203/Dictionary)')
+    
+    with img:
+        st.image(pro3_img,width=400)
+    with text:
+        st.subheader('AI Chatbot')
+        st.write(
+            '''
+            - Built a chatbot using Hugging Face pre-trained models, integrated it with a Flask web application for real-time
+conversations, designed a simple user interface to improve interaction quality
+'''
+        )
+
+st.write('---')
+with st.container():
+    st.header('Certifications')
+    st.write('##')
+    img,text=st.columns((2,3))
+    
+    with img:
+        st.image(cer1_img,width=400)
+    with text:
+        st.subheader('City of Moreton Bay Entrepreneurship and Innovation Job Simulation on Forage - February 2025')
+        st.write(
+            '''
+            - Completed a job simulation that gave insight into the tasks and challenges that entrepreneurs face..
+            - Created a pitch deck to send to Venture Capital firms for pre-seed investment.
+            - Used Wordpress to create a one page website, with the goal of convincing viewers that the product or service
+is worth buying.
+'''
+        )
+    
+    with img:
+        st.image(cer2_img,width=400)
+    with text:
+        st.subheader('PwC Switzerland Cybersecurity Job Simulation on Forage - February 2025')
+        st.write(
+            '''
+            - Completed a job simulation involving cybersecurity for PwC Digital Intelligence, gaining experience in
+understanding and explaining the concept of integrated defense.
+            - Developed expertise in integrated defense strategies and their application in real-world scenarios.
+            - Conducted risk assessments and formulated security recommendations for a client.
+            - Demonstrated proficiency in cybersecurity terminology, network segmentation, and firewall configuration.
+'''
+        )
+
 
 with st.container():
     st.write('---')
