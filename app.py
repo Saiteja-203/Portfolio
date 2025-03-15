@@ -29,7 +29,7 @@ lottie2=loadlottie(lottie2url)
 # header section
 
 with st.container():
-    lc,rc=st.columns((1.3,1))
+    lc,rc=st.columns((1.25,1))
     with lc:
         st.subheader('Hi, I am Prathipati P S Veera Venkata Naga Saiteja :wave:')
         st.title("Entrepreneur-in-the-Making | AI & Business Enthusiast")
