@@ -35,7 +35,7 @@ with st.container():
         st.title("Entrepreneur-in-the-Making | AI & Business Enthusiast")
         st.subheader("Driven by Curiosity, Fueled by Innovation")
     with rc:
-        st_lottie(lottie2,height=300,key='coding')
+        st_lottie(lottie2,height=300,key='hello')
 
 # about section
 
