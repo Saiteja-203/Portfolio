@@ -4,7 +4,8 @@ import requests
 from streamlit_lottie import st_lottie
 st.set_page_config(page_title='My Portfolio', page_icon=':tada:',layout='wide')
 
-lottieurl='https://lottie.host/2a414a6c-e01c-413d-8f1b-34537354caaa/uWyZIT9P8E.json'
+lottie1url='https://lottie.host/2a414a6c-e01c-413d-8f1b-34537354caaa/uWyZIT9P8E.json'
+lottie2url='https://lottie.host/71e523af-167c-4925-b1da-1ee25b50f429/FZFJZbeaFO.json'
 pro1_img=Image.open('images/port1.jpg')
 pro2_img=Image.open('images/Pro2.png')
 pro3_img=Image.open('images/image.png')
@@ -22,14 +23,19 @@ def loadcss(filename):
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 loadcss('styles/style.css')
 
-lottie=loadlottie(lottieurl)
+lottie1=loadlottie(lottie1url)
+lottie2=loadlottie(lottie2url)
 
 # header section
 
 with st.container():
-    st.subheader('Hi, I am Prathipati P S Veera Venkata Naga Saiteja :wave:')
-    st.title("Entrepreneur-in-the-Making | AI & Business Enthusiast")
-    st.subheader("Driven by Curiosity, Fueled by Innovation")
+    lc,rc=st.columns((1,1.1))
+    with lc:
+        st.subheader('Hi, I am Prathipati P S Veera Venkata Naga Saiteja :wave:')
+        st.title("Entrepreneur-in-the-Making | AI & Business Enthusiast")
+        st.subheader("Driven by Curiosity, Fueled by Innovation")
+    with rc:
+        st_lottie(lottie2,height=300,key='coding')
 
 # about section
 
@@ -45,7 +51,7 @@ with st.container():
 st.write("[Linkedin Profile >](https://www.linkedin.com/in/pandu-sri/)")
 
 with rc:
-    st_lottie(lottie,height=300,key='coding')
+    st_lottie(lottie1,height=300,key='coding')
 
 st.write('---')
 with st.container():
